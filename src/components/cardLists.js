@@ -22,10 +22,10 @@ class CardLists extends Component {
     const calcDamage = o => (o > 100 && 100) || o
     const calcWeak = o => (o > 100 && 100) || o
     const calcHappiness = (hp, damage, weak) => (hp / 10 + damage / 10 + 10 - weak) / 5
-    const hasSearch = (search) ? `name=${search}` : ''
+    const hasSearch = (search) ? `&name=${search}` : ''
     const res = await axios({
       method: 'get',
-      url: `http://localhost:3030/api/cards?${hasSearch}`
+      url: `http://localhost:3030/api/cards?limit=200${hasSearch}`
     })
 
     const dataCards = res.data.cards.map(o => {

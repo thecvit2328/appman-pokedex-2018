@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/thecvit2328/appman-pokedex-2018/issues"
   },
-  "homepage": "https://github.com/thecvit2328/appman-pokedex-2018#readme"
+  "homepage": "https://github.com/thecvit2328/appman-pokedex-2018#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
+  }
 }

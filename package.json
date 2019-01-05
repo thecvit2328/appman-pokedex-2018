@@ -20,10 +20,16 @@
   },
   "homepage": "https://github.com/thecvit2328/appman-pokedex-2018#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.2.1",
+    "lodash": "^4.17.11",
     "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
+    "reactstrap": "^7.0.2",
+    "recompose": "^0.30.0",
     "redux": "^4.0.1"
   }
 }
